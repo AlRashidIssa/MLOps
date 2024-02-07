@@ -1,23 +1,18 @@
-from pipelines.deployment_pipeline import deployment_pipeline, inference_pipeline
-import click 
+import numpy as np
+import pandas as pd
+from materializer.custom_materializer import cs_materializer
 
-# Define choice constants
-DEPLOY = 'deploy'
-PREDICT = 'predict'
-DEPLOY_AND_PREDICT = 'deploy_and_predict'
+from zenml import pipeline, step
+from zenml.config import DockerSettings
+from zenml.constants import DEFAULT_SERVICE_START_STOP_TIMEOUT
+from zenml.integrations.constants import MLFLOW, TENSORFLOW
+from zenml.integrations.mlflow.model_deployers.mlflow_model_deployer import MLFlowModelDeployer
 
-@click.command()
-@click.option(
-    "--config",
-    "-c",
-    type=click.Choice([DEPLOY, PREDICT, DEPLOY_AND_PREDICT]),
-    default=DEPLOY_AND_PREDICT,
-    help=("Optionally choose to only run the deployment pipeline to train and deploy a model "
-          "('deploy'), or to only run a prediction against the deployed model ('predict'). "
-          "By default both will be run ('deploy_and_predict')."),
-)
-@click.option(
-    "--min-accuracy",
-    default=0.92,
-    help="Minimum accuracy required to deploy the model",
-)
+from zenml.integrations.mlflow.services import MLFlowDeploymentService
+from zenml.integrations.mlflow.steps import mlflow_model_deployer_step
+from zenml.steps import BaseParameters, Output
+
+from steps.clean_data import clean_df
+from steps.evaluation import evaluate_model
+from steps.ingest_data import ingest_df
+from steps.model_train import train_model
