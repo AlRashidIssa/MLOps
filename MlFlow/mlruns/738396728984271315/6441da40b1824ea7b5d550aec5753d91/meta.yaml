@@ -1,0 +1,15 @@
+artifact_uri: /home/alrashidi/Desktop/MLOps/MlFlow/nested_run_artifacts/6441da40b1824ea7b5d550aec5753d91/artifacts
+end_time: 1710283944998
+entry_point_name: ''
+experiment_id: '738396728984271315'
+lifecycle_stage: active
+run_id: 6441da40b1824ea7b5d550aec5753d91
+run_name: child_12
+run_uuid: 6441da40b1824ea7b5d550aec5753d91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710283944978
+status: 3
+tags: []
+user_id: alrashidi
