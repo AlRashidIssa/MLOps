@@ -1,0 +1,15 @@
+artifact_uri: /home/alrashidi/Desktop/MLOps/MlFlow/nested_run_artifacts/c739a65a937e4b65bd3c2632a848b633/artifacts
+end_time: 1710332298733
+entry_point_name: ''
+experiment_id: '496146865089901416'
+lifecycle_stage: active
+run_id: c739a65a937e4b65bd3c2632a848b633
+run_name: Binarry Classification
+run_uuid: c739a65a937e4b65bd3c2632a848b633
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710332298659
+status: 3
+tags: []
+user_id: alrashidi

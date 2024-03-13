@@ -1,0 +1,15 @@
+artifact_uri: /home/alrashidi/Desktop/MLOps/MlFlow/model_signature_artifacts/956f2485033f4cd8b673c9baab06e76b/artifacts
+end_time: 1710335865169
+entry_point_name: ''
+experiment_id: '748069822829494006'
+lifecycle_stage: active
+run_id: 956f2485033f4cd8b673c9baab06e76b
+run_name: model_signature_run
+run_uuid: 956f2485033f4cd8b673c9baab06e76b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710335859937
+status: 3
+tags: []
+user_id: alrashidi

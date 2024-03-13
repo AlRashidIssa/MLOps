@@ -1,0 +1,15 @@
+artifact_uri: /home/alrashidi/Desktop/MLOps/MlFlow/serving_multiple_models/3c9152b0cc16445fad5872a0aaedad97/artifacts
+end_time: 1710366227725
+entry_point_name: ''
+experiment_id: '488990506900382749'
+lifecycle_stage: active
+run_id: 3c9152b0cc16445fad5872a0aaedad97
+run_name: multiple_models
+run_uuid: 3c9152b0cc16445fad5872a0aaedad97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710366224200
+status: 3
+tags: []
+user_id: alrashidi

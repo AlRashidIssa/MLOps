@@ -1,0 +1,15 @@
+artifact_uri: /home/alrashidi/Desktop/MLOps/MlFlow/testing_mlflow1_artifacts/656cf7ad0ec240838bde0350d05744b9/artifacts
+end_time: 1710330996208
+entry_point_name: ''
+experiment_id: '607841700023039753'
+lifecycle_stage: active
+run_id: 656cf7ad0ec240838bde0350d05744b9
+run_name: logging_params
+run_uuid: 656cf7ad0ec240838bde0350d05744b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710330996167
+status: 3
+tags: []
+user_id: alrashidi

@@ -1,0 +1,15 @@
+artifact_uri: /home/alrashidi/Desktop/MLOps/MlFlow/nested_run_artifacts/e65c83d6ea734847874a08334921e711/artifacts
+end_time: 1710332298699
+entry_point_name: ''
+experiment_id: '496146865089901416'
+lifecycle_stage: active
+run_id: e65c83d6ea734847874a08334921e711
+run_name: Over Fiting
+run_uuid: e65c83d6ea734847874a08334921e711
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710332298683
+status: 3
+tags: []
+user_id: alrashidi

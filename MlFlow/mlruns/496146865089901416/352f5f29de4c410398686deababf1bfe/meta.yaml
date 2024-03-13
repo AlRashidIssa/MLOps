@@ -1,0 +1,15 @@
+artifact_uri: /home/alrashidi/Desktop/MLOps/MlFlow/nested_run_artifacts/352f5f29de4c410398686deababf1bfe/artifacts
+end_time: 1710332298754
+entry_point_name: ''
+experiment_id: '496146865089901416'
+lifecycle_stage: active
+run_id: 352f5f29de4c410398686deababf1bfe
+run_name: Image Classification
+run_uuid: 352f5f29de4c410398686deababf1bfe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710332298645
+status: 3
+tags: []
+user_id: alrashidi

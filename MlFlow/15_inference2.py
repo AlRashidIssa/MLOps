@@ -1,5 +1,4 @@
 import mlflow
-from mlflow.models import infer_signature
 from mlflow_utils import get_mlflow_experiment
 
 
@@ -11,8 +10,7 @@ import pandas as pd
 
 if __name__=="__main__":
 
-    run_id = "d3edc4e12fdd44cca576da0f1864f3f0"
-        
+    run_id = "6d76dbd4660c40b2b93ae87286ab9d55"
     X, y = make_classification(n_samples=1000, n_features=10, n_informative=5, n_redundant=5, random_state=42)
     X = pd.DataFrame(X, columns=["feature_{}".format(i) for i in range(10)])
     y = pd.DataFrame(y, columns=["target"])

@@ -1,5 +1,5 @@
 import mlflow
-from MLOps.MlFlow.mlflow_utils import get_mlflow_experiment
+from mlflow_utils import get_mlflow_experiment
 
 if __name__ == "__main__":
 

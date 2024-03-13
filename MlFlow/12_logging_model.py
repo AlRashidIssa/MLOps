@@ -19,14 +19,14 @@ if __name__ == "__main__":
 
         # Log model using autolog
         # mlflow.autolog()
-        # mlflow.sklearn.autolog()
+        mlflow.sklearn.autolog()
 
         rfc = RandomForestClassifier(n_estimators=100, random_state=42)
         rfc.fit(X_train, y_train)
         y_pred = rfc.predict(X_test)
 
         # log model
-        mlflow.sklearn.log_model(sk_model=rfc, artifact_path="random_forest_classifier")
+        # mlflow.sklearn.log_model(sk_model=rfc, artifact_path="random_forest_classifier")
 
 
         # print info about the run

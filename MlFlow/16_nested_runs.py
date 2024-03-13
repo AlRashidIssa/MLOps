@@ -8,23 +8,23 @@ experiment_id = create_mlflow_experiment(
 )
 
 
-with mlflow.start_run(run_name="parent") as parent:
-    print("RUN ID parent:", parent.info.run_id)
+with mlflow.start_run(run_name="Image Classification") as IMC:
+    print("RUN ID Image Classification:", IMC.info.run_id)
 
-    mlflow.log_param("parent_param", "parent_value")
+    mlflow.log_param("loss_error_IMC", 0.025)
 
-    with mlflow.start_run(run_name="child1",nested=True) as child1:
-        print("RUN ID child1:", child1.info.run_id)
-        mlflow.log_param("child1_param", "child1_value")
+    with mlflow.start_run(run_name="Binarry Classification",nested=True) as BIC:
+        print("RUN ID Binary CLassification:", BIC.info.run_id)
+        mlflow.log_param("loss_error_BIC", 0.8)
 
-        with mlflow.start_run(run_name="child_11", nested=True) as child_11:
-            print("RUN ID child_11:", child_11.info.run_id )
-            mlflow.log_param("child_11_param", "child_11_value")
+        with mlflow.start_run(run_name="Over Fiting", nested=True) as OVF:
+            print("RUN ID OverFiting:", OVF.info.run_id )
+            mlflow.log_param("HIGH_LOW_OVF", "HIGH")
 
-        with mlflow.start_run(run_name="child_12", nested=True) as child_12:
-            print("RUN ID child_12:", child_12.info.run_id)
-            mlflow.log_param("child_12_param", "child_12_value")
+        with mlflow.start_run(run_name="Classification Images Cats/Dogs", nested=True) as CICD:
+            print("RUN ID Classification Images Cats/Dogs:", CICD.info.run_id)
+            mlflow.log_param("loss_errer_CICD", 0.0003)
 
-    with mlflow.start_run(run_name="child2", nested=True) as child2:
-        print("RUN ID child2:", child2.info.run_id)
-        mlflow.log_param("child2_param", "child2_value")
+    with mlflow.start_run(run_name="Multi Classification", nested=True) as MUC:
+        print("RUN ID Multi CLassification:", MUC.info.run_id)
+        mlflow.log_param("loss_error_MUC", 0.09)
