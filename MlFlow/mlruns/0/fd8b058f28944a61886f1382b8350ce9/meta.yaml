@@ -1,0 +1,15 @@
+artifact_uri: file:///home/alrashidi/Desktop/MLOps/MlFlow/mlruns/0/fd8b058f28944a61886f1382b8350ce9/artifacts
+end_time: 1710368055786
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fd8b058f28944a61886f1382b8350ce9
+run_name: fun-crow-474
+run_uuid: fd8b058f28944a61886f1382b8350ce9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710368050473
+status: 3
+tags: []
+user_id: alrashidi

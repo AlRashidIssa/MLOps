@@ -1,0 +1,15 @@
+artifact_uri: /home/alrashidi/Desktop/MLOps/MlFlow/hyperopt_mlflow_artifacts/750625895927489cb04bf356e3f1f9ed/artifacts
+end_time: 1710376263224
+entry_point_name: ''
+experiment_id: '791617593799861455'
+lifecycle_stage: active
+run_id: 750625895927489cb04bf356e3f1f9ed
+run_name: suave-colt-309
+run_uuid: 750625895927489cb04bf356e3f1f9ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710376249494
+status: 3
+tags: []
+user_id: alrashidi

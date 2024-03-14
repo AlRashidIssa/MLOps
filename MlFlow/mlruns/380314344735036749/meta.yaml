@@ -1,0 +1,6 @@
+artifact_location: /home/alrashidi/Desktop/MLOps/MlFlow/model_registry_artifacts
+creation_time: 1710367620332
+experiment_id: '380314344735036749'
+last_update_time: 1710367620332
+lifecycle_stage: active
+name: model_registry

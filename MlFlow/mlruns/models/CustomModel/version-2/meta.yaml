@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1710368253241
+current_stage: None
+description: null
+last_updated_timestamp: 1710368253241
+name: CustomModel
+run_id: 07e343ceb7d04bf4aadcd1123f0b0ea2
+run_link: null
+source: /home/alrashidi/Desktop/MLOps/MlFlow/model_registry_artifacts/07e343ceb7d04bf4aadcd1123f0b0ea2/artifacts/custom_model
+status: READY
+status_message: null
+storage_location: /home/alrashidi/Desktop/MLOps/MlFlow/model_registry_artifacts/07e343ceb7d04bf4aadcd1123f0b0ea2/artifacts/custom_model
+user_id: null
+version: 2

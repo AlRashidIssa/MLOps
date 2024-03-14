@@ -1,0 +1,15 @@
+artifact_uri: /home/alrashidi/Desktop/MLOps/MlFlow/hyperopt_mlflow_artifacts/bdc5f30d7e164715a0d643be12f32bf4/artifacts
+end_time: 1710376297631
+entry_point_name: ''
+experiment_id: '791617593799861455'
+lifecycle_stage: active
+run_id: bdc5f30d7e164715a0d643be12f32bf4
+run_name: bright-toad-502
+run_uuid: bdc5f30d7e164715a0d643be12f32bf4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710376286627
+status: 3
+tags: []
+user_id: alrashidi

@@ -1,0 +1,15 @@
+artifact_uri: /home/alrashidi/Desktop/MLOps/MlFlow/model_registry_artifacts/84859f7a307f4cb68ee3a7fa9c074ddd/artifacts
+end_time: 1710368286459
+entry_point_name: ''
+experiment_id: '380314344735036749'
+lifecycle_stage: active
+run_id: 84859f7a307f4cb68ee3a7fa9c074ddd
+run_name: model_registry
+run_uuid: 84859f7a307f4cb68ee3a7fa9c074ddd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710368277079
+status: 3
+tags: []
+user_id: alrashidi

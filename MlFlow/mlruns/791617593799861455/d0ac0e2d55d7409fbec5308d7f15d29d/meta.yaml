@@ -1,0 +1,15 @@
+artifact_uri: /home/alrashidi/Desktop/MLOps/MlFlow/hyperopt_mlflow_artifacts/d0ac0e2d55d7409fbec5308d7f15d29d/artifacts
+end_time: 1710376307530
+entry_point_name: ''
+experiment_id: '791617593799861455'
+lifecycle_stage: active
+run_id: d0ac0e2d55d7409fbec5308d7f15d29d
+run_name: bold-croc-669
+run_uuid: d0ac0e2d55d7409fbec5308d7f15d29d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710376297640
+status: 3
+tags: []
+user_id: alrashidi

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1710368283687
+current_stage: None
+description: null
+last_updated_timestamp: 1710368283687
+name: RandomForestRegressor
+run_id: 84859f7a307f4cb68ee3a7fa9c074ddd
+run_link: null
+source: /home/alrashidi/Desktop/MLOps/MlFlow/model_registry_artifacts/84859f7a307f4cb68ee3a7fa9c074ddd/artifacts/rfr_model
+status: READY
+status_message: null
+storage_location: /home/alrashidi/Desktop/MLOps/MlFlow/model_registry_artifacts/84859f7a307f4cb68ee3a7fa9c074ddd/artifacts/rfr_model
+user_id: null
+version: 3

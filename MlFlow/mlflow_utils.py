@@ -87,3 +87,30 @@ def delete_mlflow_experiment(
         mlflow.delete_experiment(experiment_id)
     else:
         raise ValueError("Either experiment_id or experiment_name must be provided.")
+    
+
+def create_dataset(
+        n_samples : int = 10000,
+        n_features: int = 50,
+        n_informative: int = 10,
+        class_sep: float = 1.0
+) -> pd.DataFrame:
+    """
+    Create a dataset for testing purposes.
+
+    :param n_samples: The number of samples.
+    :param n_features: The number of features.
+    :param n_informative: The number of inforamtive features.
+    """
+
+    x, y = make_classification(
+        n_samples=n_samples,
+        n_features=n_features,
+        n_informative=n_informative,
+        class_sep=class_sep,
+        random_state=42,
+    )
+
+    df = pd.DataFrame(x, columns=[f"feature_{i+1}" for i in range(n_features)])
+    df["target"] = y
+    return df 
